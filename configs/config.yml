@@ -1,0 +1,27 @@
+App:
+  Name: fw
+  Version: 1.0
+
+Mysql:
+  user: root
+  pass: teamoyk814
+  host: 127.0.0.1:3306
+  db_name: ali
+
+Redis:
+  host: 127.0.0.1:6379
+  pass: ""
+  db: 0
+
+Logger:
+  filename: ./test.log
+  max_size: 5
+  max_age: 30
+  max_backups: 10
+  compress: false
+
+rabbitmq:
+  user: guest
+  pass: guest
+  host: 127.0.0.1:5672
+  vhost: /
